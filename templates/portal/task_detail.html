@@ -1,0 +1,7 @@
+{% extends 'portal/base.html' %}
+
+{% block content %}
+<h2>Task Details #{{ task_id }}</h2>
+<p>Detailed view of task will appear here.</p>
+<a href="{% url 'task_list' %}" class="btn btn-secondary">Back to Task List</a>
+{% endblock %}
